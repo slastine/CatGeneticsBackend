@@ -1,0 +1,50 @@
+# Ignore the .git directory
+.git
+
+# Ignore node_modules directory if present
+node_modules
+
+# Ignore any logs or temporary files
+*.log
+tmp/
+temp/
+
+# Ignore bin and obj directories
+**/bin
+**/obj
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Dockerfile if it's not needed in the context
+Dockerfile
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore NuGet packages
+packages/
+.nuget/
+
+# Ignore OS-specific files
+[Tt]humbs.db
+[Dd]esktop.ini
+[Dd].S_*Cache
+*.DS_Store
+
+# Ignore any local configuration files
+*.local
+.env
+.env.*
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.rar
